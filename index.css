@@ -1,0 +1,389 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* font-style: normal; */
+    font-weight:300;
+    padding: 5% 7%;
+    font-size: 18px;
+    color: #808080;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    padding: 5% 20px 20px 20px;
+}
+
+i {
+    color: blue;
+}
+
+.title, .contacts, h1, h2, h3, h4, h5, h6, strong, b {
+    color: black;
+}
+
+p a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.fa-behance {
+    margin: 0 10px;
+}
+
+.about-column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.about-column img {
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 5% 16px;
+}
+
+.content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.content img {
+    width: 100%;
+}
+
+.contacts * {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+
+.contacts a {
+    color: black;
+}
+
+.full-width {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw !important;
+}
+
+.project-list {
+    text-align: center;
+}
+
+.project-list * {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+    /* padding-bottom: 10px; */
+    color: black;
+}
+
+.navbar {
+    padding: .5rem .5rem;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.navbar-nav {
+    margin-top: revert;
+}
+
+.active * {
+    color: blue !important;
+}
+
+.active>.nav-link {
+    color: blue !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 13px;
+}
+
+.grid {
+    padding-top: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column .title, .column .title-desc {
+    /* display: none; */
+}
+
+.column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.column2 {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 12px;
+    text-align: left;
+}
+
+.column3 {
+    flex: 88%;
+    max-width: 88%;
+    padding-left: 12px;
+    padding-right: 32px;
+    text-align: left;
+}
+
+.column4 {
+    flex: 12%;
+    max-width: 12%;
+    padding: 0 12px;
+    text-align: left;
+}
+
+.column a {
+    text-decoration: none;
+}
+
+.column img, .column .hvrbox {
+    transition: transform 0.4s;
+    transform: scale(1);
+}
+
+.column:hover .hvrbox {
+    transform: scale(1.025);
+}
+
+.tab {
+    padding-left: 10%;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.title-desc {
+    color: grey;
+}
+
+.desc {
+    color: blue;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.survey {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.survey p {
+    text-align: center;
+}
+
+.sticky-top {
+    top: 5%;
+}
+
+.column img {
+    vertical-align: middle;
+    width: 100%;
+} 
+
+.zoomD {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0)
+	color: white;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-weight: 600;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .column3 {
+        padding-right: 12px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .sticky-top {
+        position: relative;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, .column2, .column3, .column4,.about-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column2, .column3, .column4 {
+        padding-bottom: 32px;
+    }
+
+    .column3 {
+        padding-right: 12px;
+    }
+
+    .column .title, .column .title-desc {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    .content .column4 img {
+        width: 20%;
+    }
+
+    .sticky-top {
+        position: relative;
+    }
+}
+
+/* [LIGHTBOX BACKGROUND] */
+#lb-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  #lb-back.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* [LIGHTBOX IMAGE] */
+  #lb-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  #lb-img img {
+    /* You might want to play around with 
+       width, height, max-width, max-height
+       to fit portrait / landscape pictures properly. */
+    /* width: auto;
+    height: 100%; */
+    cursor: -moz-zoom-out; 
+    cursor: -webkit-zoom-out; 
+    cursor: zoom-out;
+   
+    /* ALTERNATE EXAMPLE */
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
