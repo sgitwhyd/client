@@ -38,7 +38,7 @@ window.addEventListener('load', function () {
 // 	loop: true,
 // }).go();
 
-new TypeIt('#title', {
+new TypeIt('#title-1', {
 	speed: 60,
 	loop: true,
 	cursor: false,
