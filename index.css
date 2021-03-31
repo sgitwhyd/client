@@ -334,7 +334,7 @@ p a {
 
     .content {
         width: 100%;
-        padding: 5% 0;
+        padding: 5% 10px;
     }
 
     .content .column4 img {
