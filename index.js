@@ -38,23 +38,23 @@ window.addEventListener('load', function () {
 // 	loop: true,
 // }).go();
 
-new TypeIt('#title-1', {
-	speed: 60,
-	loop: true,
-	cursor: false,
-	deleteSpeed: 60,
-})
-	.type(' UI Designer')
-	.pause(400)
-	.options({ speed: 200 })
-	.delete(11)
-	.options({ speed: 60 })
-	.pause(300)
-	.type(' UX Designer')
-	.pause(400)
-	.options({ speed: 200 })
-	.delete(11)
-	.options({ speed: 60 })
-	.pause(300)
-	.type(' UI/UX Designer')
-	.go();
+// new TypeIt('#title-1', {
+// 	speed: 60,
+// 	loop: true,
+// 	cursor: false,
+// 	deleteSpeed: 60,
+// })
+// 	.type(' UI Designer')
+// 	.pause(400)
+// 	.options({ speed: 200 })
+// 	.delete(11)
+// 	.options({ speed: 60 })
+// 	.pause(300)
+// 	.type(' UX Designer')
+// 	.pause(400)
+// 	.options({ speed: 200 })
+// 	.delete(11)
+// 	.options({ speed: 60 })
+// 	.pause(300)
+// 	.type(' UI/UX Designer')
+// 	.go();

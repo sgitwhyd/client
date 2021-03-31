@@ -108,17 +108,17 @@ p a {
     margin-top: revert;
 }
 
-.active * {
-    color: blue !important;
-}
-
-.active>.nav-link {
-    color: blue !important;
-}
+/* .active {
+    font-weight: 700;
+} */
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 700;
 }
 
 .grid {
