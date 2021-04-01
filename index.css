@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* font-style: normal; */
     font-weight:300;
-    /* padding: 5% 7%; */
+    padding: 5% 7%;
     font-size: 18px;
     color: #808080;
 }
@@ -97,7 +97,7 @@ p a {
 }
 
 .navbar {
-    padding: .5rem .5rem;
+    padding: 0px 0 .5rem .5rem;
 }
 
 .nav-item {
@@ -106,6 +106,10 @@ p a {
 
 .navbar-nav {
     margin-top: revert;
+}
+
+.navbar-brand img {
+    width: 60px;
 }
 
 /* .active {
